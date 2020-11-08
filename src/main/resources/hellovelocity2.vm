@@ -1,0 +1,23 @@
+#set($bar = $person)
+----------------
+$bar
+###打印person类或他的toString方法
+#set($bar = $person.age)
+$bar
+#set($bar = $person.sayHello)
+$bar
+#set($bar = $person.name)
+$bar
+#set($bar = $person.speak("$bar"))
+$bar
+#set($bar = ["abc",$person.name])
+$bar
+#foreach($x in $bar)
+    $x
+#end
+-----------华丽的分割线-------------
+#foreach($element in $list)
+    明星: $element
+    $velocityCount
+#end
+-----------华丽的分割线-------------
